@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #0b0b0b, #232526) center / cover;
+}
+
+.container {
+    height: 85vh;
+    width: auto;
+    margin: 7.5vh 12.5% 0 12.5%;
+    background: transparent;
+    box-shadow: 3px 3px 15px 0px black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.loginpic {
+    background: url("../../img/Beispiel.jpg") center / cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.logindiv {
+    background-color: #201F24;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    /*Display inner flex vertically aligned*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform {
+    padding: 1.4em 1.4em 0 1.4em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px black;
+}
+
+.inputname {
+    font-size: 125%;
+    color: whitesmoke;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px goldenrod;
+  color: whitesmoke;
+  font-size: 110%;
+}
+
+.mybtn {
+    background: url("../../img/Button.png");
+    background-position: right;
+    background-size: cover;
+    box-shadow: 0px 0px 2px 0px black;
+    color: whitesmoke;
+    border-radius: 4px;
+}
