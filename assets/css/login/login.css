@@ -4,6 +4,7 @@ html, body {
     padding: 0;
     margin: 0;
     background: linear-gradient(90deg, #0b0b0b, #232526) center / cover;
+    overflow: hidden;
 }
 
 .container {
@@ -43,6 +44,9 @@ html, body {
     padding: 1.4em 1.4em 0 1.4em;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 0px black;
+    width: 52.5%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .inputname {
@@ -72,4 +76,16 @@ input {
     box-shadow: 0px 0px 2px 0px black;
     color: whitesmoke;
     border-radius: 4px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.myhr {
+    background: url("../../img/Beispiel.jpg");
+    background-position: 60px 150px;
+    background-size: cover;
+    height: 0.25em;
+    border: none;
 }

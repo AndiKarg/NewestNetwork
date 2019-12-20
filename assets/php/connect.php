@@ -1,6 +1,6 @@
 <?php
 
-$con=mysqli_connect("192.168.49.79","root","akarg123","mysql");
+$con=mysqli_connect("127.0.0.1","root","","socialnetwork");
 // Check connection
 if (mysqli_connect_errno())
   {
