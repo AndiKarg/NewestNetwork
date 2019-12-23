@@ -1,0 +1,47 @@
+/* nur für PC */
+@media only screen and (min-width: 480px) {
+
+    .mdl-card {
+        width: 80% !important;
+        margin-bottom: 2em;
+    }
+
+    .mdl-card__title {
+        height: 35vh !important;
+    }
+
+    /* on click bei feed */
+    .activeCard {
+    position: fixed;
+    top: 64px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    /*Display inner flex vertically aligned*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5vw !important;
+}
+
+    .activeElement {
+        max-width: 70% !important;
+    }
+
+    .activeElement .mdl-card__title {
+        height: 40em !important;
+    }
+/* on click ende */
+
+}
+
+/*nur für Handy etc */
+@media only screen and (max-width: 480px) {
+
+
+
+}

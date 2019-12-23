@@ -1,0 +1,73 @@
+* {
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #0b0b0b, #232526) center / cover;
+}
+
+.mdl-card {
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #232526;
+}
+
+.mdl-layout__header {
+    background-color: transparent;
+}
+
+.mdl-card__title-text {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.mdl-layout__drawer {
+    background: linear-gradient(135deg, #0b0b0b, #232526) center / cover;
+    border-right-color: transparent;
+}
+
+.headname {
+    font-weight: bold;
+    font-size: 125%;
+}
+
+c {
+    color: #b68b1f;
+    margin-left: -4px;
+}
+
+.mdl-card a {
+    color: #b68b1f !important;
+}
+
+.hero {
+    background: url(../img/Beispiel.jpg) center/cover;
+    height: 450px;
+    margin-bottom: 2em;
+}
+
+.demo-card-wide>.mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background-size: cover;
+    background-position: center;
+}
+
+.mdl-card__supporting-text {
+    color: rgb(200, 200, 200);
+}
+
+@media only screen and (max-width: 480px) {
+
+    .mdl-card {
+            margin-bottom: 1em;
+            width: 90% !important;
+        }
+
+}
