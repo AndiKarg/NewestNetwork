@@ -1,0 +1,26 @@
+    /* on click bei feed */
+    .activeCard {
+    position: fixed;
+    top: 64px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    /*Display inner flex vertically aligned*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5vw !important;
+}
+
+    .activeElement {
+        max-width: 70% !important;
+    }
+
+    .activeElement .mdl-card__title {
+        height: 40em !important;
+    }
+/* on click ende */

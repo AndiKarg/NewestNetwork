@@ -4,7 +4,8 @@ if (!empty($_SESSION['user_id'])) {
 ?>
 
     <script src="assets/js/fetch.js"></script>
-    <script src="assets/js/home.js"></script>
+    <script src="assets/js/home/home.js"></script>
+    <link rel="stylesheet" href="assets/css/home/home.css">
 
     <div class="mdl-grid"></div>
 
