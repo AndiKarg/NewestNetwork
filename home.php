@@ -8,7 +8,15 @@ if (!empty($_SESSION['user_id'])) {
 
     <div class="mdl-grid"></div>
 
-<?php
+    <dic class="activeCard" style="display: none;">
+        <div class="mdl-cell mdl-cell--12-col">
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp activeElement">
+
+            </div>
+        </div>
+        </div>
+
+    <?php
     include "assets/php/endtemplate.php";
 } else { // nur anzeigen wenn user auch eingeloggt ist!!
     echo '
@@ -19,4 +27,4 @@ window.location.href = "index.php";
 
 </script>';
 }
-?>
+    ?>
