@@ -47,7 +47,7 @@ mdl-layout--fixed-header">
                 <a class="mdl-navigation__link" href="">Friends</a>
                 <a class="mdl-navigation__link" href="">Support</a>
                 <form method="POST" action="">
-                    <input type="submit" name="logout" value="Ausloggen" />
+                    <input type="submit" name="logout" class="logoutbtn" value="Ausloggen" />
                 </form>
                 <?php
                 if (isset($_POST["logout"])) {

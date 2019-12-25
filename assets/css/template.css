@@ -63,6 +63,16 @@ c {
     color: rgb(200, 200, 200);
 }
 
+.logoutbtn {
+    background: #b68b1f !important;
+    margin: 16px 40px;
+    border: none;
+    padding: 0.7em;
+    width: 10em;
+    font-size: 110%;
+    text-align: center !important;
+}
+
 @media only screen and (max-width: 480px) {
 
     .mdl-card {

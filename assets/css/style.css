@@ -40,7 +40,7 @@ c {
 }
 
 .hero {
-    background: url(../img/Beispiel.jpg) center/cover;
+    background: url(../img/header.jpg) center/cover;
     height: 450px;
     margin-bottom: 2em;
 }
@@ -48,7 +48,7 @@ c {
 .demo-card-wide>.mdl-card__title {
     color: #fff;
     height: 176px;
-    background: url("../img/Beispiel.jpg");
+    background: url("../img/header.jpg");
 }
 
 .mdl-card__supporting-text {
