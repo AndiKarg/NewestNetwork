@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    $('.createFeed').prop("Editable", true);
+
     console.log("Feedsuche wird ausgeführt");
 
     $.ajax({

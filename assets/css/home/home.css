@@ -18,6 +18,7 @@
 
     .activeElement {
         max-width: 70% !important;
+        box-shadow: 1px 1px 20px 2px black !important;
     }
 
     .activeElement .mdl-card__title {

@@ -64,13 +64,13 @@ input {
   box-sizing: border-box;
   background: transparent;
   border: none;
-  border-bottom: solid 1px goldenrod;
+  border-bottom: solid 1px #daa520;
   color: whitesmoke;
   font-size: 110%;
 }
 
 .mybtn {
-    background: url("../../img/Button.png");
+    background: url("../../img/header.jpg");
     background-position: right;
     background-size: cover;
     box-shadow: 0px 0px 2px 0px black;
@@ -83,7 +83,7 @@ p {
 }
 
 .myhr {
-    background: url("../../img/Beispiel.jpg");
+    background: url("../../img/header.jpg");
     background-position: 60px 150px;
     background-size: cover;
     height: 0.25em;

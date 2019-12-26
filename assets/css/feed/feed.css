@@ -1,3 +1,46 @@
+.feedcont {
+    padding: 1em;
+}
+
+.createFeedHeading {
+    margin-left: 5% !important;
+    margin-top: auto;
+    margin-bottom: 1%;
+}
+
+.createFeed {
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px inset black;
+    border-radius: 10px;
+    min-height: 96px;
+    height: auto;
+    margin-left: 5%;
+    margin: auto;
+    width: 87%;
+    padding: 1.5%;
+}
+
+.mybtn {
+    background: url("../../img/header.jpg");
+    background-position: right;
+    background-size: cover;
+    box-shadow: 0px 0px 2px 0px black;
+    color: whitesmoke;
+    border-radius: 4px;
+    width: max-content;
+    margin-left: 5%;
+}
+
+.myhr {
+    background: url("../../img/header.jpg");
+    background-position: 60px 150px;
+    background-size: cover;
+    height: 0.25em;
+    border: none;
+    width: 90%;
+    margin-left: 5%;
+}
+
 /* nur für PC */
 @media only screen and (min-width: 480px) {
 
@@ -29,6 +72,7 @@
 }
 
     .activeElement {
+        box-shadow: 1px 1px 20px 2px black !important;
         max-width: 70% !important;
     }
 
